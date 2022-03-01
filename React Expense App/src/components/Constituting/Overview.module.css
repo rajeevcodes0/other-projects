@@ -1,0 +1,34 @@
+.overview-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.income-panel{
+    flex-basis: 40%;
+    text-align: center;
+    border:0.5px solid rgb(223, 220, 220);
+    border-radius: 5px;
+}
+
+.expense-panel{
+    flex-basis: 40%;
+    text-align: center;
+    border:0.5px solid rgb(223, 220, 220);
+    border-radius: 5px;
+}
+
+/*themes*/
+.dark-mode-theme{
+    background-color: rgb(51, 50, 50);
+    color:whitesmoke
+}
+
+.light-mode-theme{
+    background-color: white;
+    color:black;
+}
+
+.violet-mode-theme{
+    background-color: rgb(70, 57, 119);
+    color:white;
+}

@@ -1,0 +1,72 @@
+.add-log-form-container{
+    display:flex;
+    flex-flow: column;
+    margin:20px;
+}
+
+.toggle-expense-type-button-container{
+    display: flex;
+    border: 0.5px solid rgb(223, 220, 220);
+    border-radius: 5px;
+
+}
+
+
+
+.toggle-expense-type-button{
+    flex-grow: 1;
+    font-size: 15px;
+    padding:5px;
+    border:none;
+    background-color: transparent;
+}
+
+.selected-button{
+    background-color: rgb(125, 252, 125);
+}
+
+
+.add-log-form-container form{
+    display: flex;
+    flex-flow: column;
+}
+
+.form-submit-button{
+    font-size: 15px;
+    background-color: rgb(57, 226, 57);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    margin:auto;
+}
+
+/*themes*/
+.dark-mode-theme{
+    background-color: rgb(51, 50, 50);
+    color:whitesmoke;
+
+}
+
+.light-mode-theme{
+    background-color: white;
+    color:black;
+}
+
+.violet-mode-theme{
+    background-color: rgb(70, 57, 119);
+    color:white;
+}
+
+/*for font awesome we need to only change the font color and not the background*/
+.dark-mode-theme-fa{
+    color:whitesmoke
+}
+
+.light-mode-theme-fa{
+    color:black;
+}
+
+.violet-mode-theme-fa{
+    color:white;
+}

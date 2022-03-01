@@ -1,0 +1,14 @@
+.dark-mode-theme{
+    background-color: rgb(41, 40, 40);
+    color:whitesmoke
+}
+
+.light-mode-theme{
+    background-color: white;
+    color:black;
+}
+
+.violet-mode-theme{
+    background-color: rgb(61, 45, 117);
+    color:white;
+}

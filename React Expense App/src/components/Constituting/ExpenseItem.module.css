@@ -1,0 +1,125 @@
+.expense-item-container{
+    display: flex;
+    padding:10px;
+    justify-content: center;
+    border-radius: 10px;
+    border:0.5px solid rgb(218, 215, 215);
+    margin:10px 0px;
+}
+
+.item-being-deleted{
+    animation-name: item-delete-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+.expense-item-info{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 80%;
+}
+
+.expense-item-info p{
+    margin:2px;
+}
+
+.expense-item-controls{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button-edit{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding:10px;
+    margin:0px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.button-delete{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding:10px;
+    margin:0px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.button-delete:hover{
+    background-color: rgb(243, 125, 125);
+}
+
+.button-edit:hover{
+    background-color: rgb(125, 243, 164);
+}
+
+@keyframes item-delete-animation {
+    0%{
+        position: relative;
+        left:-10px;
+        box-shadow: none;
+    }
+    20%{
+        position: relative;
+        left:-12px;
+        box-shadow: none;
+    }
+    40%{
+        position: relative;
+        left:-14px;
+        box-shadow: none;
+    }
+    60%{
+        position: relative;
+        left:-10px;
+        box-shadow: none;
+    }
+    80%{
+        position: relative;
+        left:-8px;
+        box-shadow: none;
+    }
+    100%{
+        position: relative;
+        left:4000px;
+        box-shadow: none;
+    }
+    
+}
+
+/*themes*/
+.dark-mode-theme{
+    background-color: rgb(51, 50, 50);
+    color:whitesmoke;
+    box-shadow: 0px 0px 3px 1px rgb(105, 105, 105);
+
+}
+
+.light-mode-theme{
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px 2px rgb(184, 183, 183);
+}
+
+.violet-mode-theme{
+    background-color: rgb(70, 57, 119);
+    color:white;
+    box-shadow: 0px 0px 10px 2px rgb(47, 32, 71);
+}
+
+/*for font awesome we need to only change the font color and not the background*/
+.dark-mode-theme-fa{
+    color:whitesmoke
+}
+
+.light-mode-theme-fa{
+    color:black;
+}
+
+.violet-mode-theme-fa{
+    color:white;
+}

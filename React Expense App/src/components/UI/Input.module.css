@@ -1,0 +1,16 @@
+.input{
+    display: flex;
+    flex-flow: column;
+    margin:10px 0px;
+}
+
+.input input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(211, 209, 209);
+    outline:none;
+}
+
+.input input:focus{
+    border-bottom: 2px solid rgb(32, 32, 32);
+}

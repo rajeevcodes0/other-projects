@@ -1,0 +1,42 @@
+.header{
+    display:flex;
+}
+
+.header h1{
+    flex-basis: 90%;
+    text-align: center;
+}
+
+.header button{
+    height:30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:none;
+    font-size: 30px;
+    
+}
+
+.header button:hover{
+    color:grey;
+}
+
+.header .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*themes*/
+/*We only have to change the button color, here it is font-awesome*/
+.dark-mode-theme{
+    color:whitesmoke
+}
+
+.light-mode-theme{
+    color:black;
+}
+
+.violet-mode-theme{
+    color:white;
+}
