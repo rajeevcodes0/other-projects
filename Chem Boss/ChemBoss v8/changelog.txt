@@ -1,0 +1,4 @@
+remove background
+removed old footer
+added cc license 
+add about us

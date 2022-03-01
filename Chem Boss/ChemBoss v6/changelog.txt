@@ -1,0 +1,3 @@
+*added footer
+*added science icon in footer
+*rotated the icon

@@ -1,0 +1,144 @@
+#hint{
+    height:250px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 35%;
+    display: block;
+}
+
+#start-quiz{
+    color:white;
+    background-color: #7a1dd1;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border:none;
+    margin-top:5px;
+    margin-left:48%;
+}
+
+#start-quiz:hover{
+    background-color: #9b62cf;
+}
+
+#question-card{
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+.select-difficulty p{
+    font-size: 40px;
+    width: 40%;
+    margin: 20px auto;
+    border-left: 5px solid #7a1dd1;
+    padding-left: 15px;
+}
+
+.difficulty-button-holder{
+    width: 40%;
+    margin: 30px auto;
+}
+
+.difficulty-button-holder button{
+    color:white;
+    position: relative;
+    background-color: #7a1dd1;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.difficulty-button-holder button:hover{
+    background-color: #aa72df;
+}
+
+.question-statement{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 20%;
+
+}
+
+.option{
+    font-size: 30px;
+    margin-left: 20%;
+    border-radius: 5px;
+    width: 30%;
+    padding-left:5px;
+}
+
+.option:hover{
+    background-color: rgb(204, 202, 202);
+}
+
+.points-holder{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color:white;
+    background-color: #7a1dd1;
+    padding: 5px;
+    margin-left:50%;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.the-end-message{
+    width:400px;
+    height:200px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+
+.home-button{
+    padding:5px;
+    margin: 5% 45%;
+    font-size: 30px;
+    background-color: #7a1dd1;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-button:hover{
+    background-color: #9a6ac7;
+}
+
+.question-image{
+    height:400px;
+    width:500px;
+    display: inline;
+}
+
+.question-holder{
+    width:50%;
+    height: 80%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    .question-image{
+        height:200px;
+        width:250px;
+        margin-left:20%;
+    }
+
+    .question-holder{
+        margin-left: 20% ;
+    }
+    #hint{
+        margin-left: 5%;
+    }
+}
+
