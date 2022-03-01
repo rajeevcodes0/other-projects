@@ -1,0 +1,24 @@
+.panel-toggler-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+.panel-toggler-button-container{
+    border:1px solid rgb(168, 167, 167);
+}
+
+.panel-toggler-button-container button{
+    width: 100px;
+    background-color: white;
+    padding:5px;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s background-color;
+}
+
+.active{
+    background-color: rgb(109, 109, 246) !important; 
+    color: white !important;
+}

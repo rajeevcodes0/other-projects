@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-air-quality-index-app/static/css/main.289455cb.chunk.css",
+    "main.js": "/react-air-quality-index-app/static/js/main.e617f7ff.chunk.js",
+    "main.js.map": "/react-air-quality-index-app/static/js/main.e617f7ff.chunk.js.map",
+    "runtime-main.js": "/react-air-quality-index-app/static/js/runtime-main.952309e1.js",
+    "runtime-main.js.map": "/react-air-quality-index-app/static/js/runtime-main.952309e1.js.map",
+    "static/js/2.5b573499.chunk.js": "/react-air-quality-index-app/static/js/2.5b573499.chunk.js",
+    "static/js/2.5b573499.chunk.js.map": "/react-air-quality-index-app/static/js/2.5b573499.chunk.js.map",
+    "index.html": "/react-air-quality-index-app/index.html",
+    "static/css/main.289455cb.chunk.css.map": "/react-air-quality-index-app/static/css/main.289455cb.chunk.css.map",
+    "static/js/2.5b573499.chunk.js.LICENSE.txt": "/react-air-quality-index-app/static/js/2.5b573499.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.952309e1.js",
+    "static/js/2.5b573499.chunk.js",
+    "static/css/main.289455cb.chunk.css",
+    "static/js/main.e617f7ff.chunk.js"
+  ]
+}

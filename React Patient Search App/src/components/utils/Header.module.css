@@ -1,0 +1,44 @@
+.header-container{
+    display: flex;
+    background-color: rgb(140, 140, 252);
+    padding:5px;
+    box-shadow: 0px 1px 4px 1px rgb(34, 30, 30);
+    background-image: url("../../images/header_background.jpg");
+    width: 100%;
+}
+
+.header-container h1{
+    text-align: center;
+    flex-basis:90%;
+    flex-grow: 1;
+    color:white;
+}
+
+.log-out-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container button{
+
+    flex-basis: 10%;
+    height:50px;
+    width: 100px;
+    font-size: 20px;
+    padding:5px;
+
+    color:white;
+
+    border:none;
+    border-radius: 5px;
+    
+    background-color: rgb(226, 57, 27);
+    box-shadow: 1px 1px 2px 1px rgb(46, 42, 51);
+    
+}
+
+.header-container button:hover{
+    background-color: rgb(224, 80, 54);
+    cursor: pointer;
+}

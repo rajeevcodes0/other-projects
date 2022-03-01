@@ -1,0 +1,39 @@
+.dialog-container{
+    font-size: 15px;
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-dialog-button{
+    background-color: white;
+    font-size: 10px;
+    height: 30px ;
+    width: 30px ;
+    padding:5px;
+    color:black;
+    margin:5px;
+    border-radius: 100%;
+    border:1px solid black;
+}
+
+.dialog-container p{
+    flex-basis: 90%;
+    text-align: center;
+}
+
+
+.error{
+    background-color: rgb(219, 48, 48);
+    color:white;
+    
+}
+
+.success{
+    background-color: rgb(110, 228, 110);
+    color:black;
+    font-weight: bold;
+}
