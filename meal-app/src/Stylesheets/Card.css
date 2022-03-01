@@ -1,0 +1,10 @@
+.card{
+    display:inline-block;
+    height:300px;
+    width:200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin:100px;
+    transition: all 0.5s;
+}

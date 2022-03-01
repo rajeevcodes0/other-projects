@@ -1,0 +1,29 @@
+form{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+input{
+    width:60%;
+    font-size: 20px;
+    border:none;
+    height: 40px;
+    outline:none;
+    border-bottom: 2px solid rgb(69, 70, 69);
+    margin: 20px 20px 20px 10%;
+}
+
+button{
+    border:none;
+    
+    background-color: rgb(26, 139, 26);
+    font-size: 20px;
+
+    border-radius: 20px;
+    color:white;
+}
+button i{
+    margin:0px;
+    padding:0;
+}

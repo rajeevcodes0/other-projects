@@ -1,0 +1,16 @@
+.student{
+    list-style: none;
+    color:white;
+}
+
+.student p{
+    width:80%;
+    display: inline-block;
+    text-align: left;
+}
+
+.student input{
+    width:10%;
+    margin:0;
+    height:20px;
+}

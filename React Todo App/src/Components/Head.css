@@ -1,0 +1,20 @@
+.head{
+    width:100%;
+    margin:0px;
+    height:100px;
+    background-image: url("https://picsum.photos/id/1022/400/100");
+    background-size: 100% 100%;
+    
+}
+
+.head h1{
+    margin:0px;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:900;
+    text-align: center;
+    position: relative;
+    top:30px;
+    color:white;
+}

@@ -1,0 +1,36 @@
+.trend{
+    list-style: none;
+    width:100%;
+    height: 40px;
+    margin:20px auto; 
+    color:white;
+}
+
+.trend p{
+    width: 20%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.trend-graph{
+    width:80%;
+    height: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.trend-graph span{
+    display: inline-block;
+    margin:5px;
+    width: 20px;
+    height:20px;
+    border-radius: 100%;
+}
+.trend-graph .present{
+    background-color: rgb(106, 243, 106);
+}
+
+.trend-graph .absent{
+    background-color: rgb(247, 125, 125);
+}

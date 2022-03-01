@@ -1,0 +1,31 @@
+.navigation{
+    width:40%;
+    margin:20px auto;;
+}
+.navigation ul{
+    width:100%;
+    margin:0;
+}
+
+.navigation ul li{
+    width:50%;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navigation ul li button{
+    border:none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    border-bottom: 5px solid white;
+    transition: all 0.5s;
+}
+
+.navigation ul li button:hover{
+    color:blueviolet;
+    border-bottom: 5px solid blueviolet;
+}

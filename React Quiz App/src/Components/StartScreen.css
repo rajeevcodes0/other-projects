@@ -1,0 +1,43 @@
+.start-screen{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width:500px;
+    padding:10px;
+}
+
+.start-screen form{
+    display: flex;
+    flex-flow: column;
+    width:100%;
+    align-items: center;
+}
+
+.start-screen h1{
+    text-align: center;
+}
+
+.start-screen input{
+    width:50%;
+    margin:20px 0px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline:none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.start-screen button{
+    border:none;
+    height:50px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(110, 247, 110);
+    transition: all 0.2s;
+}
+
+.start-screen button:hover{
+    background-color: rgb(88, 187, 88);
+    color:white;
+}
